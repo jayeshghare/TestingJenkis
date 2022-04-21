@@ -8,6 +8,8 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+                        <packaging>war</packaging>
+
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
 	<version>2.6.3</version>
