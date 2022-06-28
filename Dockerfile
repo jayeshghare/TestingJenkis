@@ -6,7 +6,6 @@
 #
 #CMD ["/bin/sh"]
 
-FROM openjdk:8
-EXPOSE 8086
-ADD target/demo-2.6.3.jar demo-2.6.3.jar
+FROM openjdk:8-jdk-alpine
+COPY target/demo-2.6.3.jar demo-2.6.3.jar
 ENTRYPOINT ["java","-jar","/demo-2.6.3.jar"]
